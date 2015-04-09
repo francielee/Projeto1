@@ -37,17 +37,17 @@
 	</style>
 	
 	<body >
-		<div style="background-image: url('/projeto1/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%; text-align:center;">
+		<div style="background-image: url('/projeto1-php/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%; text-align:center;">
 			
 			<div id="box">
-				<img id="foto" style="float:left" src="/projeto1/imagens/verdura.jpg">
+				<img id="foto" style="float:left" src="imagens/verdura.jpg">
 				<p id="texto-esquerda">A intoxicação alimentar é uma doença causada pela ingestão de alimentos que contém organismos prejudiciais ao nosso corpo, como bactérias, parasitas e vírus. Eles são encontrados principalmente na carne crua, frango, peixe e ovos, mas podem se espalhar para qualquer tipo de alimento. A intoxicação alimentar pode acontecer com alimentos que são deixados ao ar livre ou que ficaram armazenados por muito tempo. Às vezes, a intoxicação alimentar acontece quando você não lava as mãos antes de tocar na comida.
 				Na maioria das vezes, a intoxicação alimentar é suave e desaparece após alguns dias. Tudo o que você pode fazer é esperar seu corpo para se livrar do germe que está causando a doença. Mas alguns tipos de intoxicação alimentar podem ser mais sérios – nesses casos, você precisa ver um médico.
 				</p>
 			</div>
 
 			<div id="box">
-				<img id="foto" style="float:right"src="/projeto1/imagens/bolo-caseiro.jpg">
+				<img id="foto" style="float:right"src="imagens/bolo-caseiro.jpg">
 				<div id="texto-direita">
 				<p style="font-weight:bold">Pão caseiro nota 10</p>
 				<span>
@@ -58,7 +58,7 @@
 			</div>
 				
 			<div id="box" style="margin-bottom: 100px;">
-				<img id="foto" style="float:left" src="/projeto1/imagens/bolo-fofo.jpg">
+				<img id="foto" style="float:left" src="imagens/bolo-fofo.jpg">
 				<div id="texto-esquerda" >
 				<p style="font-weight:bold">Bolo fofo a qualquer hora</p>
 				<span>Verifique se você tem todos os ingredientes, acenda o forno e unte a forma. O bolo cresce melhor se assado logo após o preparo da massa.

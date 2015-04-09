@@ -24,7 +24,7 @@
 
 	</style>
 	<body>
-		<div style="background-image: url('/projeto1/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%; text-align:center;">
+		<div style="background-image: url('/projeto1-php/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%; text-align:center;">
 			
 			<div id="box">
 				<div id="texto">

@@ -27,7 +27,7 @@
 
     	if($pagina == 'index'){ 
     		echo '<div>
-    			<img src="/projeto1/imagens/frutas-da-dieta.jpg" style="width:100%;"/>
+    			<img src="imagens/frutas-da-dieta.jpg" style="width:100%;"/>
    				</div>';
 		}
     ?>
@@ -55,6 +55,6 @@
     <?php require_once ("rodape.php"); ?>
 
     <Script  src = "http://code.jquery.com/jquery.js" > </script>
-    <Script  src = "/projeto1/bootstrap/js/bootstrap.min.js" > </script>
+    <Script  src = "/projeto1-php/bootstrap/js/bootstrap.min.js" > </script>
   </body>
 </html>

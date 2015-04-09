@@ -45,7 +45,7 @@
 
 	</style>
 	<body>
-		<div style="background-image: url('/projeto1/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%; text-align:center;">
+		<div style="background-image: url('/projeto1-php/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%; text-align:center;">
 			<div class="bot">
 				<p class="text">Entre em contato conosco.</p>
 				<div>
@@ -61,10 +61,10 @@
 				</div>
 
 				<?php 
-					if (isset($_POST["nome"]) && $_POST["nome"] != null &&
-						isset($_POST["email"]) && $_POST["email"] != null &&
-						isset($_POST["assunto"]) && $_POST["assunto"] != null &&
-						isset($_POST["mensagem"]) && $_POST["mensagem"] != null){
+					if ((filter_input(INPUT_POST,"nome")) && filter_input(INPUT_POST,"nome") != null &&
+						(filter_input(INPUT_POST,"email")) && filter_input(INPUT_POST,"email") != null &&
+						(filter_input(INPUT_POST,"assunto")) && filter_input(INPUT_POST,"assunto") != null &&
+						(filter_input(INPUT_POST,"mensagem")) && filter_input(INPUT_POST,"mensagem") != null){
 
 						//fazer mensagem que seja obrigatorio todos os campos
 

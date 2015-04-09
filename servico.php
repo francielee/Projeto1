@@ -73,11 +73,11 @@
 
 	</style>
 	<body>
-		<div class="central" style="background-image: url('/projeto1/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%;">
+		<div class="central" style="background-image: url('/projeto1-php/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%;">
 
 			<div class="principal-left">
 				<div class="imagem">
-					<img src="/projeto1/imagens/noiva.jpg">
+					<img src="imagens/noiva.jpg">
 				</div>
 				<p class="text">Noiva em Forma</p>
 				<div class="fundo"></div>
@@ -85,7 +85,7 @@
 
 			<div class="principal-center">
 				<div class="imagem">
-					<img src="/projeto1/imagens/gestante.jpg">
+					<img src="imagens/gestante.jpg">
 				</div>
 				<p class="text">Programa Gestante</p>
 				<div class="fundo"></div>
@@ -93,7 +93,7 @@
 
 			<div class="principal-right">
 				<div class="imagem">
-					<img src="/projeto1/imagens/familia.jpg">
+					<img src="imagens/familia.jpg">
 				</div>
 				<p class="text">Consulta Familiar</p>
 				<div class="fundo"></div>
@@ -101,7 +101,7 @@
 			
 			<div class="principal-left">
 				<div class="imagem">
-					<img src="/projeto1/imagens/consulta.jpg">
+					<img src="imagens/consulta.jpg">
 				</div>
 				<p class="text">Consulta Nutricional</p>
 				<div class="fundo"></div>
@@ -109,7 +109,7 @@
 
 			<div class="principal-center">
 				<div class="imagem">
-					<img src="/projeto1/imagens/cardapio.jpg">
+					<img src="imagens/cardapio.jpg">
 				</div>
 				<p class="text">Cardápio Personalizado</p>
 				<div class="fundo"></div>
@@ -117,7 +117,7 @@
 
 			<div class="principal-right">
 				<div class="imagem">
-					<img src="/projeto1/imagens/treinamento.jpg">
+					<img src="imagens/treinamento.jpg">
 				</div>
 				<p class="text">Treinamento Teórico</p>
 				<div class="fundo"></div>
