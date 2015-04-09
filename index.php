@@ -23,7 +23,7 @@
     <?php require_once ("menu.php"); ?>	
     
     <?php 
-    	$pagina = $_GET['pagina']; 
+    	$pagina = filter_input(INPUT_GET, "pagina"); 
 
     	if($pagina == 'index'){ 
     		echo '<div>
