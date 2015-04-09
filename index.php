@@ -55,6 +55,6 @@
     <?php require_once ("rodape.php"); ?>
 
     <Script  src = "http://code.jquery.com/jquery.js" > </script>
-    <Script  src = "/projeto1-php/bootstrap/js/bootstrap.min.js" > </script>
+    <Script  src = "bootstrap/js/bootstrap.min.js" > </script>
   </body>
 </html>

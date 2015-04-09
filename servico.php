@@ -73,7 +73,7 @@
 
 	</style>
 	<body>
-		<div class="central" style="background-image: url('/projeto1-php/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%;">
+		<div class="central" style="background-image: url('imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%;">
 
 			<div class="principal-left">
 				<div class="imagem">

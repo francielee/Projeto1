@@ -45,7 +45,7 @@
 
 	</style>
 	<body>
-		<div style="background-image: url('/projeto1-php/imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%; text-align:center;">
+		<div style="background-image: url('imagens/frutas.jpg'); background-repeat:no-repeat; background-size:130%; text-align:center;">
 			<div class="bot">
 				<p class="text">Entre em contato conosco.</p>
 				<div>
