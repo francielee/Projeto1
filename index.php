@@ -247,9 +247,9 @@
 
 	<body>
 	
-    <?php require_once ("menu.php"); ?>	
+    <?php require_once ("menu.php");
     
-    <?php 
+    
     	$pagina = filter_input(INPUT_GET, "pagina"); 
 
     	if($pagina == 'index'){ 
@@ -257,9 +257,8 @@
     			<img src="imagens/frutas-da-dieta.jpg" style="width:100%;"/>
    				</div>';
 		}
-    ?>
- 
-	<?php
+    
+	
 		if ($pagina == "index"){
 			require_once("index-conteudo.php");
 		}
@@ -277,9 +276,9 @@
 		}else{
 			echo "Página não encontrada!";
 		}
-	?>
 	
-    <?php require_once ("rodape.php"); ?>
+	
+    require_once ("rodape.php"); ?>
 
     <Script  src = "http://code.jquery.com/jquery.js" > </script>
     <Script  src = "bootstrap/js/bootstrap.min.js" > </script>
