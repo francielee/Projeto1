@@ -57,31 +57,6 @@
 			    background-color:#E5FFEA; 
 			}
 			
-			.box-home{
-				width: 1100px;
-			    padding: 15px;
-			    border: 4px solid gray;
-			    border-radius: 10px;
-			    margin: 0;
-			    text-align: center;
-			    display: inline-block;
-			    margin-top: 40px;
-			    background-color:#E5FFEA; 
-			}
-
-			.box-home-end{
-			  	width: 1100px;
-			    padding: 15px;
-			    border: 4px solid gray;
-			    border-radius: 10px;
-			    margin: 0;
-			    text-align: center;
-			    display: inline-block;
-			    margin-top: 40px;
-			    background-color:#E5FFEA; 
-			  	margin-bottom: 100px;
-			}
-
 			.box-left-service{
 				width: 250px;
 		  		padding: 0px;
@@ -161,26 +136,19 @@
 					padding-right: 15px;
 			}
 
-			#text-left-home{
-				text-align: justify; 
-				margin-top:40; 
-				margin-bottom:40;
-				padding-left: 230px;
-				padding-right: 15px;
-			}
-
-			#text-right-home{
-				text-align: justify; 
-				margin-top:40; 
-				margin-bottom:40;
-				padding-left: 15px;
-				padding-right: 230px;
-			}
-
 			#text-index-content/*content = conteudo*/{
 				margin-bottom: 100px;
 				margin-top: 5px;
 			} 
+
+			#erro{
+				font-size: 40px;
+				text-align: center;
+				clear: both;
+				margin-top: 50px;
+				margin-bottom: 80px;
+				color: red;
+			}
 
 			#photo-link{
 				margin-top: 100px;
@@ -195,24 +163,6 @@
 			.photo-service{
 					position: relative;
 					z-index:5;
-			}
-
-			#photo-left-home{
-				width: 200px;
-				height: 200px;
-				margin-bottom: 0;
-				margin-top: 0;
-				margin-left: 0;
-				float:left;
-			}
-
-			#photo-right-home{
-				width: 200px;
-				height: 200px;
-				margin-bottom: 0;
-				margin-top: 0;
-				margin-left: 0;
-				float:right;
 			}
 
 			.button{
@@ -247,38 +197,30 @@
 
 	<body>
 	
-    <?php require_once ("menu.php");
-    
-    
-    	$pagina = filter_input(INPUT_GET, "pagina"); 
+    <?php 
 
-    	if($pagina == 'index'){ 
+   		require_once ("menu.php");
+        
+    	//$pagina = filter_input(INPUT_GET, "pagina"); 
+
+   		function rotaAtual(){
+
+			$url = parse_url("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+			$rota = explode('/', substr( $url['path'], 1 ) );
+
+			return $rota[0];
+		}
+
+    	if(rotaAtual() == 'home'){ 
     		echo '<div>
     			<img src="imagens/frutas-da-dieta.jpg" style="width:100%;"/>
    				</div>';
 		}
-    
-	
-		if ($pagina == "index"){
-			require_once("index-conteudo.php");
-		}
-		else if($pagina == "home"){
-			require_once("home.php");
-		}
-		elseif ($pagina == "empresa") {
-			require_once("empresa.php");
-		}
-		elseif ($pagina == "servico") {
-			require_once("servico.php");
-		}
-		elseif ($pagina == "contato") {
-			require_once("contato.php");
-		}else{
-			echo "Página não encontrada!";
-		}
-	
-	
-    require_once ("rodape.php"); ?>
+
+		require_once("funcao.php");
+
+  		require_once ("rodape.php");
+    ?>
 
     <Script  src = "http://code.jquery.com/jquery.js" > </script>
     <Script  src = "bootstrap/js/bootstrap.min.js" > </script>

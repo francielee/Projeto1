@@ -2,7 +2,7 @@
 	<div id="box-standard">
 		<p class="text-contact">Entre em contato conosco.</p>
 		<div>
-			<form method="post" action="?pagina=contato">
+			<form method="post" action="/contato">
 				<fieldset>
 					<label class="text-contact" >Nome:</label><input class="camp" type="text" name="nome"/>
 					<label class="text-contact" >E-mail:</label><input class="camp" type="text" name="email"/>
