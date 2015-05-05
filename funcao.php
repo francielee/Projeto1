@@ -6,15 +6,15 @@
 			'empresa' => 'empresa',
 			'servico' => 'servico',
 			'contato' => 'contato'
-
 		);
 
 		if (array_key_exists($rota, $rotas)) {
-			require_once($rotas[$rota].".php");		
+
+			return $rotas[$rota].".php";		
 		}else{
-			echo "<div id='erro'>
-			STATUS CODE 404
-			</div>";
+			http_response_code(404);
+			
+			return "404.php";
 		}
 	}
 
@@ -27,5 +27,5 @@
 
 	//var_dump($rota);
 
-	rotas($rota[0]);
+	//rotas($rota[0]);
 ?>

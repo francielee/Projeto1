@@ -1,3 +1,12 @@
+<?php
+	require_once("funcao.php");
+			
+	//if( rotas( $rota[0] ) == "" ){
+	//	require_once("404.php");
+		///exit();
+	//}
+?>
+
 <! DOCTYPE html>
 <html>
 	<head>
@@ -217,7 +226,11 @@
    				</div>';
 		}
 
-		require_once("funcao.php");
+	
+		//if($include != "" ){
+		require_once( rotas($rota[0]) );
+		//}
+		
 
   		require_once ("rodape.php");
     ?>
